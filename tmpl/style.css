@@ -1,0 +1,80 @@
+/*------------------------------------------------------------------------
+# Hot Image Slider - Commercial Joomla module
+# Copyright (C) 2013 HotThemes. All Rights Reserved.
+# License: http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+# Author: HotThemes
+# Website: http://www.hotjoomlatemplates.com
+-------------------------------------------------------------------------*/
+
+div.hotwrap {
+  width:100%;
+  margin:0 auto;
+  text-align:left;
+}
+
+div#top {
+  float:left;
+  clear:both;
+  width:100%;
+  height:52px;
+  margin:22px 0 0;
+}
+
+div#header_hotslider div#slide-holder {
+  position:absolute;
+}
+
+div#header_hotslider div#slide-holder div#slide-runner {
+  overflow:hidden;
+  position:absolute;
+}
+
+div#header_hotslider div#slide-holder div#slide-controls {
+  left:0;
+  top:10px;
+  height:46px;
+  display:none;
+  position:absolute;
+}
+
+a img {
+	border:0;
+}
+
+div#header_hotslider {
+	margin:-1px 0 0;
+}
+
+div#video-header {
+	margin:-1px 0 0;
+}
+
+div#header_hotslider div#slide-holder img {
+	margin:0;
+	display:none;
+	position:absolute;
+}
+
+div#header_hotslider div#slide-holder div#slide-controls p.text {
+	float:left;
+	display:inline;
+	margin:15px 0 0 20px;
+	text-transform:uppercase;
+	overflow:hidden;
+}
+
+div#header_hotslider div#slide-holder div#slide-controls div#slide-nav a {
+	float:left;
+	width:24px;
+	height:24px;
+	display:inline;
+	font-size:11px;
+	margin:0 5px 0 0;
+	line-height:24px;
+	font-weight:700;
+	text-align:center;
+	text-decoration:none;
+	background-position:0 0;
+	background-repeat:no-repeat;
+	padding:0;
+}

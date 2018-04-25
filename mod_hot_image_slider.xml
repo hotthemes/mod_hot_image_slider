@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extension
+	type="module"
+	version="1.6.0"
+	client="site"
+	method="upgrade">
+	<name>Hot Image Slider</name>
+	<author>HotThemes</author>
+	<creationDate>2013-07-01</creationDate>
+	<copyright>Copyright 2013 by HotThemes</copyright>
+	<license>GNU General Public License version 3 or later</license>
+	<authorEmail>info@hotjoomlatemplates.com</authorEmail> 
+	<authorUrl>https://www.hotjoomlatemplates.com</authorUrl> 
+	<version>3.8.7</version>
+	<description>HOT_IMAGE_SLIDER_DESC</description>
+
+	<files>
+		<filename module="mod_hot_image_slider">mod_hot_image_slider.php</filename>
+		<filename>index.html</filename>
+		<filename>mod_hot_image_slider.xml</filename>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>tmpl</folder>
+	</files>
+	
+	<languages>
+		<language tag="en-GB">en-GB.mod_hot_image_slider.ini</language>
+	</languages>
+
+	<updateservers>
+		<server type="extension" priority="1" name="Hot Image Slider Update">http://update.hotjoomlatemplates.com/mod_hot_image_slider_update.xml</server>
+	</updateservers>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="system" label="LABEL SYSTEM SETTINGS">
+				<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+				<field name="maxWidth" type="text" default="960" label="LABEL MAX WIDTH" description="DESC MAX WIDTH" />
+				<field name="borderWidth" type="text" default="20" label="LABEL BORDER WIDTH" description="DESC BORDER WIDTH" />
+				<field name="backgroundColor" type="color" default="#000000" label="LABEL BACKGROUND" description="DESC BACKGROUND" />
+				<field name="showNames" type="list" default="1" label="LABEL NAMES" description="DESC NAMES">
+					<option value="1">Enable</option>
+					<option value="0">Disable</option>
+				</field>
+				<field name="showDesc" type="list" default="1" label="LABEL DESC" description="DESC DESC">
+					<option value="1">Enable</option>
+					<option value="0">Disable</option>
+				</field>
+				<field name="showLink" type="list" default="1" label="LABEL SHOW LINK" description="DESC SHOW LINK">
+					<option value="1">Enable</option>
+					<option value="0">Disable</option>
+				</field>
+				<field name="linkNewWindow" type="list" default="0" label="LABEL LINK NEW WINDOW" description="DESC LINK NEW WINDOW">
+					<option value="1">Enable</option>
+					<option value="0">Disable</option>
+				</field>
+				<field name="animation" type="list" default="0" label="LABEL ANIMATION" description="DESC ANIMATION">
+					<option value="slide">Slide</option>
+					<option value="fade">Fade</option>
+				</field>
+				<field name="fadeSpeed" type="text" default="600" label="LABEL FADE SPEED" description="DESC FADE SPEED" />
+			</fieldset>
+			<fieldset name="image01" label="LABEL IMAGE 01">
+				<field name="image1" type="media" default="" label="LABEL IMAGE" />
+				<field name="image1title" type="text" default="" label="LABEL IMAGE TITLE" description="DESC IMAGE TITLE" />
+				<field name="image1desc" type="text" default="" label="LABEL IMAGE DESC" description="DESC IMAGE DESC" />
+				<field name="image1link" type="text" default="" label="LABEL IMAGE LINK" description="DESC IMAGE LINK" />
+			</fieldset>
+			<fieldset name="image02" label="LABEL IMAGE 02">
+				<field name="image2" type="media" default="" label="LABEL IMAGE" />
+				<field name="image2title" type="text" default="" label="LABEL IMAGE TITLE" description="DESC IMAGE TITLE" />
+				<field name="image2desc" type="text" default="" label="LABEL IMAGE DESC" description="DESC IMAGE DESC" />
+				<field name="image2link" type="text" default="" label="LABEL IMAGE LINK" description="DESC IMAGE LINK" />
+			</fieldset>
+			<fieldset name="image03" label="LABEL IMAGE 03">
+				<field name="image3" type="media" default="" label="LABEL IMAGE" />
+				<field name="image3title" type="text" default="" label="LABEL IMAGE TITLE" description="DESC IMAGE TITLE" />
+				<field name="image3desc" type="text" default="" label="LABEL IMAGE DESC" description="DESC IMAGE DESC" />
+				<field name="image3link" type="text" default="" label="LABEL IMAGE LINK" description="DESC IMAGE LINK" />
+			</fieldset>
+			<fieldset name="image04" label="LABEL IMAGE 04">
+				<field name="image4" type="media" default="" label="LABEL IMAGE" />
+				<field name="image4title" type="text" default="" label="LABEL IMAGE TITLE" description="DESC IMAGE TITLE" />
+				<field name="image4desc" type="text" default="" label="LABEL IMAGE DESC" description="DESC IMAGE DESC" />
+				<field name="image4link" type="text" default="" label="LABEL IMAGE LINK" description="DESC IMAGE LINK" />
+			</fieldset>
+			<fieldset name="image05" label="LABEL IMAGE 05">
+				<field name="image5" type="media" default="" label="LABEL IMAGE" />
+				<field name="image5title" type="text" default="" label="LABEL IMAGE TITLE" description="DESC IMAGE TITLE" />
+				<field name="image5desc" type="text" default="" label="LABEL IMAGE DESC" description="DESC IMAGE DESC" />
+				<field name="image5link" type="text" default="" label="LABEL IMAGE LINK" description="DESC IMAGE LINK" />
+			</fieldset>
+			<fieldset name="moreslides" label="More slides?">
+				<field name="note1" type="note" class="alert" label="Need More Slides?" description="Premium version can rotate up to 30 slides. View Description tab for details..." />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
