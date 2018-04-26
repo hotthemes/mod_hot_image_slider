@@ -2,7 +2,7 @@
 
 <extension
 	type="module"
-	version="1.6.0"
+	version="3.0"
 	client="site"
 	method="upgrade">
 	<name>Hot Image Slider</name>
@@ -21,11 +21,13 @@
 		<filename>mod_hot_image_slider.xml</filename>
 		<folder>images</folder>
 		<folder>js</folder>
+		<folder>language</folder>
 		<folder>tmpl</folder>
 	</files>
 	
 	<languages>
-		<language tag="en-GB">en-GB.mod_hot_image_slider.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.mod_hot_image_slider.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.mod_hot_image_slider.sys.ini</language>
 	</languages>
 
 	<updateservers>
